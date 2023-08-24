@@ -1,4 +1,4 @@
-TWRP Device configuration for Lenovo yoga smart tab YT-X705X Device
+Device configuration for Lenovo yoga smart tab YT-X705X Device
 ============================================================
 Basic   | Spec Sheet
 -------:|:-------------------------
