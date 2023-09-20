@@ -17,7 +17,7 @@
 #
 # 	Please maintain this if you use this script or any part of it
 #
-FDEVICE="whyred"
+FDEVICE="X705X"
 
 fox_get_target_device() {
 local chkdev=$(echo "$BASH_SOURCE" | grep $FDEVICE)
@@ -38,7 +38,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export ALLOW_MISSING_DEPENDENCIES=true
 	export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
 	
-	export FOX_R11=1
+	export FOX_R10=1
 	export OF_PATCH_AVB20=1
     export OF_SCREEN_H=2160
 	export OF_USE_MAGISKBOOT=1
@@ -56,7 +56,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 
     # About Settings
     export OF_MAINTAINER="Jai Kishan"
-    export FOX_VERSION="R11.1"
+    export FOX_VERSION="R10"
     export FOX_BUILD_TYPE="Test"
 
 	export FOX_USE_BASH_SHELL=1
