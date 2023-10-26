@@ -79,6 +79,9 @@ TARGET_COPY_OUT_VENDOR := vendor
 # Platform
 TARGET_BOARD_PLATFORM := msm8937
 
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 # Recovery
 BOARD_INCLUDE_RECOVERY_DTBO := true
 TARGET_USERIMAGES_USE_EXT4 := true
